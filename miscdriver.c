@@ -98,7 +98,7 @@
  98         .show  = misc_seq_show,
  99 };
 100 
-101 static int misc_seq_open(struct inode *inode, struct file *file)
+101 static int misc_seq_open(struct inode *inode, struct file *file) 
 102 {
 103         return seq_open(file, &misc_seq_ops);
 104 }
